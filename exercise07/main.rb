@@ -34,11 +34,11 @@ end
 duck = Duck.new
 puts is_duck?(duck)
 
-specialDuck = SpecialDuck.new
-puts is_duck?(specialDuck)
+special_duck = SpecialDuck.new
+puts is_duck?(special_duck)
 
-fakeDuck = FakeDuck.new
-puts is_duck?(fakeDuck)
+fake_duck = FakeDuck.new
+puts is_duck?(fake_duck)
 
 dog = Dog.new
 puts is_duck?(dog)

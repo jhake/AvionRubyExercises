@@ -9,3 +9,10 @@ INSERT INTO students VALUES (6, 'Piolo', 'Blank', 'Pascual', 22, 'Manila');
 UPDATE students SET first_name='Ana', middle_name='Cui', last_name='Cajocson', age=25, location='Bulacan' WHERE id=1;
 DELETE FROM students WHERE id=6;
 
+
+
+SELECT COUNT (*) FROM students;
+SELECT * FROM students WHERE location='Manila';
+SELECT AVG(age) FROM students;
+SELECT * FROM students ORDER BY age DESC;
+
